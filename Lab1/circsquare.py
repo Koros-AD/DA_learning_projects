@@ -1,5 +1,5 @@
+#The program calculates circle area using circle radius as an input
 import math
-
 r = float(input("Enter circle radius: "))
 while r <= 0:
     print("Enter a valid radius.")
@@ -9,5 +9,3 @@ def findarea(r):
     return area
 area = findarea(r)
 print(f"Circle area = {area:.2f}")
-
-
