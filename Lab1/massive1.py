@@ -1,3 +1,4 @@
+#The program outputs array elements that appear thrice in the same order as in the array
 from collections import Counter
 array = [2, 7, 18, 7,23, 9, 12, 3,30, 6, 16, 21, 3, 28,7]
 count=[]
