@@ -1,3 +1,4 @@
+#The programm calculates the roots of the quadratic eauasion based on the a,b and c values input by a user
 import math
 a=int(input("enter а "))
 b=int(input("enter b "))
@@ -15,8 +16,3 @@ def roots(a,b,c):
       x2=(-b-math.sqrt(D))/(2*a)
       print(f'x1={x1},x2={x2}')
 roots(a,b,c)
-
-
-
-
-
