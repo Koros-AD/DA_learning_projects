@@ -1,4 +1,4 @@
-#b)	Из файла climate.csv отображает в виде двух столбцов названия и коды (rw_country_code) тех стран,
+#b)	 Из файла climate.csv отображает в виде двух столбцов названия и коды (rw_country_code) тех стран,
 # у которых cri_score больше 100, а fatalities_total не более 10.
 import pandas as pd
 df=pd.read_csv('D:/Media/climate.csv')
