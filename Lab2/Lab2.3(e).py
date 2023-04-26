@@ -1,4 +1,4 @@
-#e) Моделирование простой анимации. Создать данные для x и y (где x это numpy.linspace, а y - математическая функция).
+#e)Моделирование простой анимации. Создать данные для x и y (где x это numpy.linspace, а y - математическая функция).
 # Запустить объект line, ввести функцию animate(i) c методом line.set_ydata() и создать анимированный объект FuncAnimation
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
