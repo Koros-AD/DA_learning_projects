@@ -1,4 +1,4 @@
-#b) Учебный файл (data.csv) + практика Dataframe.pivot. Поворот фрейма данных и суммирование повторяющихся значений.
+#b) Учебный файл (data.csv) + практика Dataframe.pivot. Поворот фрейма данных и суммирование повторяющихся значений
 import pandas as pd
 df=pd.read_csv('D:/Media/data.csv')
 pivoted=pd.pivot_table(df,index='Date',
