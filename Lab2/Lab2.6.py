@@ -1,4 +1,4 @@
-#6) Вычисление статистики для массива numpy
+#6)  Вычисление статистики для массива numpy
 import numpy as np
 data=np.loadtxt('D:/Media/cars.csv',delimiter=',',skiprows=1,usecols=range(2,8))
 mean = np.mean(data)
