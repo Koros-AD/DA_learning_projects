@@ -1,3 +1,5 @@
+#6. Средствами NLTK выделить именованные сущности с тэгами (Person, Organisation, GSP и проч.) для английского и русского текста
+
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
