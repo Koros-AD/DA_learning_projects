@@ -1,3 +1,4 @@
+#iv.	Нормализовать именованные сущности в тексте
 from natasha import Doc, MorphVocab
 
 morph_vocab = MorphVocab()
