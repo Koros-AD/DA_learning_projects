@@ -1,3 +1,5 @@
+#7. С помощью sklearn обучить модель распознавать части речи в предложении.
+# Для этого необходимо разбить данные на обучающую и тестовую выборки, а в конце вывести на экран предсказание модели и степень его точности
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
