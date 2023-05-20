@@ -13,7 +13,6 @@ while cap.isOpened():
     ret, frame = cap.read()
     if not ret:
         break
-
     # Уменьшить размера видео
     resized_frame = cv2.resize(frame, None, fx=0.5, fy=0.5)
     # Повернуть его на 180 градусов
