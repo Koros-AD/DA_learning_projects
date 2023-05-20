@@ -19,7 +19,6 @@ while cap.isOpened():
 # Удаление шума
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))
     fg_mask = cv2.morphologyEx(fg_mask, cv2.MORPH_OPEN, kernel)
-
 # Обводка движущихся объектов
     contours, _ = cv2.findContours(fg_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     for contour in contours:
@@ -28,7 +27,7 @@ while cap.isOpened():
 
     cv2.imshow('Motion Detector', frame)
 
-    # Окончание программы по клавише q
+ # Окончание программы по клавише q
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
