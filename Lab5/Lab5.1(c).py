@@ -8,11 +8,9 @@ angle = 45
 rows, cols = image.shape[:2]
 rotation_matrix = cv2.getRotationMatrix2D((cols / 2, rows / 2), angle, 1)
 rotated_image = cv2.warpAffine(image, rotation_matrix, (cols, rows))
-
 #Размытие
 blur_radius = (7, 7)
 blurred_image = cv2.blur(image, blur_radius)
-
 # Сглаживание
 scale_percent = 70
 width = int(image.shape[1] * scale_percent / 100)
