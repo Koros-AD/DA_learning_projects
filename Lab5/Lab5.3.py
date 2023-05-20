@@ -3,6 +3,7 @@
 # ЛКМ - рисовать прямоугольники, ПКМ - рисовать круги в режиме свободного рисования
 import cv2
 import numpy as np
+
 class Painter:
     def __init__(self):
         self.drawing_rectangle = False
