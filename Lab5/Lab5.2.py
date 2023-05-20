@@ -8,7 +8,6 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Распознавание лиц
 faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
-
 # Обводка лиц
 num_faces = 0
 for (x, y, w, h) in faces:
