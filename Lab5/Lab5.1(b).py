@@ -20,24 +20,20 @@ def resize_image(image, width, height):
     return resized_image
 img = 'D:\Media/leaf.jpg'
 image = cv2.imread(img)
-
 # добавление надписей
 caption = "Hello, World!"
 caption_position = (50, 50)
 add_caption(image, caption, caption_position)
-
 # кадрирование
 x = 100
 y = 100
 crop_width = 300
 crop_height = 200
 cropped_image = crop_image(image, x, y, crop_width, crop_height)
-
 # Изменение размера
 resize_width = 600
 resize_height = 400
 resized_image = resize_image(image, resize_width, resize_height)
-
 # Показ результатов
 cv2.imshow("Original Image", image)
 cv2.imshow("Cropped Image", cropped_image)
