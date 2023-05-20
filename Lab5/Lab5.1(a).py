@@ -1,3 +1,4 @@
+#a)	Перевод в градации серого и в чёрно-белое изображение по порогу
 import cv2
 img=cv2.imread('D:\Media/leaf.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
